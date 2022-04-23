@@ -44,6 +44,7 @@
                     <a href="front/auth/registration.php" class="btn_to_cus"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Reg.</a>
                 </div>
 
+
                 <div class="col-md-3 col-sm-12">
                     <div class="top-bar-social">
                         <a href="index.html#"><i class="fa fa-facebook rounded-box"></i></a>
@@ -54,7 +55,58 @@
                     </div>
                 </div>
             </div>
+
         </div> <!--  end .container -->
     </div> <!--  end .top-bar  -->
+
+    <section class="header-wrapper navgiation-wrapper">
+
+        <div class="navbar navbar-default">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="index.php">Home</a></li>
+
+                        <li>
+                            <a href="index.html#">Group Doner List</a>
+                            <ul class="drop-down">
+                                <li><a href="front/group_do_a_pos.php">A+ (A Positive)</a></li>
+                                <li><a href="front/group_do_a_neg.php">A- (A Negative)</a></li>
+                                <li><a href="front/group_do_ab_pos.php">AB+ (AB+ Positive)</a></li>
+                                <li><a href="front/group_do_ab_neg.php">AB- (AB Negative)</a></li>
+                                <li><a href="front/group_do_b_pos.php">B+ (B Positive)</a></li>
+                                <li><a href="front/group_do_b_neg.php">B- (B Negative)</a></li>
+                                <li><a href="front/group_do_o_pos.php">O+ (O+ Positive)</a></li>
+                                <li><a href="front/group_do_o_neg.php">O- (O- Negative)</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#" title="All Donors">All Donors</a></li>
+
+                        <li><a href="front/donor_by_district.php" title="Donors By District">Donors By District</a></li>
+
+                      
+
+                        
+
+                        <li><a href="front/contact_us.php" title="Contact Us">Contact us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 </header> <!-- end main-header  -->
